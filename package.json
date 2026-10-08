@@ -1,0 +1,20 @@
+{
+  "name": "tenant-key-lifecycle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/property_service.ts",
+    "example": "tsx src/example_tenant_handoff.ts",
+    "test": "tsx --test src/tenant_lifecycle.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
